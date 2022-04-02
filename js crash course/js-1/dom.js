@@ -1,4 +1,4 @@
-//Examine the document object
+/*Examine the document object
 console.dir(document);
 console.log(document.domain);
 console.log(document.URL);
@@ -85,11 +85,39 @@ var even = document.querySelectorAll('li-nth-child(even)');
 for(var i=0; i < odd.length; i++){
     odd[i].style.backgroundcolor = '#f4f4f4';
     even[i].style.backgroundcolor = '#ccc';
-}
+}*/
 
+//let firstName = "Buttler";
+//let secondName = "Ben stoke";
+//let thirdName = "audi"
 
+//console.log(firstName)
+//console.log(secondName)
+//console.log(thirdName)
+//document.write(firstName)
+//let javascript = "amazing";
+//document.write(javascript)
+//if(javascript === 'amazing') alert('dynamic language');
 
+//primitive datatype
+/*let numberd = 123;
+console.log(numberd)
+console.log(typeof numberd)
 
+let stranger = "sheraz rajput";
+console.log(stranger)
+console.log(typeof stranger)
+
+let dynamicLanguage = true;
+console.log(dynamicLanguage)
+console.log(typeof dynamicLanguage)
+
+let cats;
+console.log(typeof cats)
+
+cats = "123";
+console.log(cats)
+console.log(typeof cats)*/
 
 
 
