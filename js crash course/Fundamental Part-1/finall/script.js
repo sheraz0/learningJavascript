@@ -1,6 +1,6 @@
 //////////////////////
 // linking  javascript file
-let js = 'amazing';
+/*let js = 'amazing';
 console.log(js);
 if(js === 'amazing') alert('javascript is Fun')
 let operator = 40-15/2;
@@ -8,4 +8,28 @@ console.log(operator);
 
 let myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello World!';
-myHeading.style.border = '1px solid Blue';
+myHeading.style.border = '1px solid Blue';*/
+
+//////////////////////
+//Data Types
+let myAge = 20;
+console.log(myAge); 
+console.log(typeof myAge);
+
+let myName = 'Sheraz Akram';
+console.log(myName);
+console.log(typeof myName);
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+console.log(typeof javascriptIsFun);
+
+let year;
+console.log(year);
+console.log(typeof year);
+
+year = 'sheraz';
+console.log(year);
+console.log(typeof year);
+
+console.log(typeof null);
