@@ -33,3 +33,26 @@ console.log(year);
 console.log(typeof year);
 
 console.log(typeof null);
+
+//////////////////////////
+
+let num1 = 5;
+let num2 = 5;
+let result = num1 + num2;
+alert(result);
+
+let temp = 31;
+temp = 25;
+alert('Today temprature is' + ' ' + temp);
+
+var weight = 50;
+weight = 60;
+alert('my weight is' + ' ' + weight);
+
+//creating a const to save my name the value of this const can't be changed
+/*const name = sheraz;
+name = akram;
+alert('my name is' + ' ' + name);
+*/
+const newName = 'ali'
+alert('Name is' + ' ' + newName);
