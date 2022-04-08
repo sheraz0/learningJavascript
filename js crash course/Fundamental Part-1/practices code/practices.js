@@ -101,6 +101,14 @@ var x;
 console.log(x === undefined);
 x = 3;
 
+var myvar = 'my value';
+
+(function(){
+    var myvar;
+    console.log(myvar);
+    //myvar = 'local value'
+})();
+
 
 
 

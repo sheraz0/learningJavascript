@@ -194,7 +194,89 @@ console.log(sheraz);
 
 const newSheraz = `iam ${newName}, a ${birth} year old ${work}`;
 console.log(newSheraz);
-*/
+
+/////////////////////////////////////////////////////
+ //TAKING DECISION if/else statement
+
+ const age = 17;
+
+ if(age >= 18){
+     alert('Sarah can start driving license');
+ }else{
+     const yearsleft = 18 - age;
+     alert(`Sarah is too young. wait another ${yearsleft} year`);
+ }
+
+ const birthYear = 2012;
+  let century;
+  if(birthYear <= 2000){
+      century = 20;
+  }else{
+      century = 21;
+  }
+  alert(century);
+
+  /////////////////////////////////////
+  // coding challenge #2
+  const massMark = 78;
+  const heightMark = 1.69;
+  const massJohn = 92;
+  const heightJohn = 1.88;
+  
+  const markBMI = massMark / heightMark ** 2;
+  const johnBMI = massJohn / (heightJohn * heightJohn);
+  const markHeigherBMI = markBMI > johnBMI;
+  
+  if(markBMI > johnBMI){
+      alert(`mark higher ${markBMI} to john ${johnBMI}`);
+  }else{
+      alert('john higher to mark');
+  }
+  
+  ///////////////////////////////////////
+  //type conversion
+  const inputYear = '2002';
+  console.log(typeof inputYear);
+  console.log(typeof Number(inputYear));
+  
+  //const inputWord = 12345;
+  //console.log(typeof inputWord);
+  //console.log(string(inputWord));
+
+  //type coercion
+  console.log('1' + '2' + 3);
+  console.log('10' - '5' - '3');
+
+  let n = '1' + 1; // 11
+  n= n - 1;
+  console.log(n);
+
+  /////////////////////////////
+  // Truthy and Falsy value
+
+  console.log(Boolean(''));
+  console.log(Boolean('hussain'));
+  console.log(Boolean({}));
+  console.log(Boolean(0));
+  console.log(Boolean(undefined));
+
+  const score = 0;
+  if(score){
+      alert('your score is zero!');
+  }else{
+      alert('you are winner');
+  }
+
+  const myName = 'hussain';
+  if(myName){
+      alert('your age is empty');
+  }else{
+      alert('your are agree'); 
+     }
+     */
+
+
+
 
 
 
