@@ -273,10 +273,65 @@ console.log(newSheraz);
   }else{
       alert('your are agree'); 
      }
+
+     ////////////////////////////////////
+     // Equality operator == vs ===
+     const age = '18';
+     if(age === 18) console.log(`you just beame an adult (strict equality operator)`);
+
+     if(age == 18) console.log(`you just beame an adult (loose equality operator)`);
+
+     const favourite = Number(prompt(`what is your favourite number?`));
+     console.log(favourite);
+     console.log(typeof favourite);
+
+     if(favourite === 17){
+         alert('17 is my favourite number');
+     }else if(favourite === 7){
+         alert('7 is also my fvrt number');
+     }else if(favourite === 8){
+         alert('8 is not my fvrt');
+     }else{
+         alert('17 is not equal another number');
+     }
+
+     ///////////////////////////////
+     //logical operator
+
+     const hasDrivingLicense = true;
+     const goodVision = true;
+     const sarahIsNotAble = false;
+     alert(hasDrivingLicense && goodVision && sarahIsNotAble);
+
+     if(hasDrivingLicense && goodVision && sarahIsNotAble){
+         alert(`sarah is  able to driving`);
+     }else{
+         alert(`sarah is not able to drive`);
+     }
+
+     if(hasDrivingLicense || goodVision || sarahIsNotAble){
+         alert(`sarah is kid`);
+     }else{
+         alert(`sarah is adult`);
+     }
+
+     //////////////////////////////////////
+     //Coding challenge #3
+
+     const scoreDolphins = (97 + 112 + 88) / 3;
+     const scoreKoalas = (97 + 112 + 88) / 3;
+     console.log(scoreDolphins, scoreKoalas);
+
+     if(scoreDolphins > scoreKoalas){
+         alert('dolphins is win the trophy');
+     }else if(scoreKoalas > scoreDolphins){
+         alert('koalas is win the trophy');
+     }else if(scoreDolphins === scoreKoalas){
+         alert('both team is equal');
+     }else{
+         alert('both is draw');
+     }
      */
-
-
-
 
 
 
