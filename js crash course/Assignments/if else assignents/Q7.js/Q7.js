@@ -12,10 +12,13 @@ console.log(typeof user);
 if(user > 100){
     alert(`wrong input`);
 }
-else if(user <= 50){
-    alert(`right`);
+else if(user >= 50){
+    alert(`this number is greater tan fifty`);
 }
-else if(user === 25){
-    alert(`true`);
+else if(user <= 50){
+    alert(`this number is less than or equal fifty`);
+}
+else if(user === 1){
+    alert(`this number is equal one`)
 }
 else(`invalid input`);
