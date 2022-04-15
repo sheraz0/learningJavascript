@@ -9,16 +9,15 @@ let user;
 user = Number(prompt(`Enter a number`));
 console.log(typeof user);
 
-if(user > 100){
-    alert(`wrong input`);
+if(user > 50){
+    alert(`This number is greater than fifty`);
 }
-else if(user >= 50){
-    alert(`this number is greater tan fifty`);
+else if(user < 50){
+    alert(`This number is less tan fifty`);
 }
-else if(user <= 50){
-    alert(`this number is less than or equal fifty`);
+else if(user === 50){
+    alert(`This number is equal fifty`);
 }
-else if(user === 1){
-    alert(`this number is equal one`)
+else{
+    alert('invalid input');
 }
-else(`invalid input`);

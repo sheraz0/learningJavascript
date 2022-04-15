@@ -1,3 +1,8 @@
+/*
+1. Write a program that reads user age and prints
+ “CHILD” if age <18, “ADULT” if 18<=age<35 and “SENIOR” if age >=35?
+ */ 
+
 let age;
   
 age = Number(prompt("What is your age?"));
