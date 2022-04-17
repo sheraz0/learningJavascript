@@ -5,26 +5,29 @@
  user and display the result in the format...N1 op N2=result?
  */
 
- let N1;
- let N2;
- let CH = ( '/' );
+  let N1;
+  let N2;
+  let CH = ( ' +, -, *, / ' );
+  let result;
 
   N1 = Number(prompt('Enter value for N1'));
+  CH = Number(prompt('Enter a operator +, -, *, /'));
   N2 = Number(prompt('Enter vlaue for N2'));
-  CH = Number(prompt('Enter a operator'));
+  
+  console.log(typeof CH);
+  
 
-  if(CH === '+'){
-      alert(`result ${N1} + ${N2}`);
+  if(CH ===   ' + '){
+    result = N1 + N2;
   }
-  else if(CH === '-'){
-      alert(`result ${N1} - ${N2}`);
+  else if(CH ===   ' - '){
+      result = N1 - N2;
   }
-  else if(CH === '*'){
-      alert(`result ${N1} * ${N2}`);
+  else if(CH ===   ' * '){
+      result = N1 * N2;
   }
-  else if(CH === '/'){
-      alert(`result ${N1} / ${N2}`);
+  else if(CH ===   ' / '){
+      result = N1 / N2;
   }
-  else{
-      alert('invalid input');
-  }
+  
+  console.log(`${N1} ${CH} ${N2} = ${result}`);
