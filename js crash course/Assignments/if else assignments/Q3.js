@@ -20,5 +20,5 @@ if(cal === 0){
 else if(cal > 0){
    root1 = (- b + math.sqrt(b - 4 * a * c) / 2 * a);
   root1 = (- b - math.sqrt(b - 4 * a * c) / 2 * a);
-  cnsole.log(`root are real ${root1} and ${root2}`);
+  console.log(`root are real ${root1} and ${root2}`);
 }
