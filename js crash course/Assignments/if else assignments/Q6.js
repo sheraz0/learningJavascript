@@ -6,13 +6,16 @@
 
   let N1;
   let N2;
+  let result;
 
   N1 = Number(prompt('Enter a number1'));
   N2 = Number(prompt('Enter a number2'));
 
-  if(N1 && N2 > 0){
-      alert('this number is greater');
+  if(N1 >= N2){
+      result = N1;
+    alert(`${N1} is greater`);
   } 
-  else{
-      alert('this number is smaller');
+  else if(N2 >= N1){
+      result = N2;
+    alert(`${N2} is greater`);
   }

@@ -3,17 +3,16 @@
   as input and calculates the area and hypotenuse?
   */
 
- let a;
- let b;
-
- a = prompt('enter a value one');
- b = prompt('enter a second value');
-
- if(a >= 50){
-   alert( (a * a) + (b * b) );
- }
- else if(b <= 50){
-   alert( (a * a) + (b * b));
- }
-
-
+  let a;
+  let b;
+  let result;
+  
+  a = prompt('Enter a Base');
+  b = prompt('Enter a Height');
+  
+  if(a && b > 0){
+   result = (1/2) * a * b;
+   alert(`The area of a right triangle is ${result}`);
+  }else{
+    alert('invalid input');
+  }

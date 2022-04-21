@@ -6,17 +6,17 @@ less than or equal to 50?
 
 let user;
 
-user = Number(prompt(`Enter a number`));
+user = Number(prompt('Enter a number'));
 console.log(typeof user);
 
 if(user > 50){
-    alert(`This number is greater than fifty`);
+    alert('This number is greater than fifty');
 }
 else if(user < 50){
-    alert(`This number is less tan fifty`);
+    alert('This number is less tan fifty');
 }
 else if(user === 50){
-    alert(`This number is equal fifty`);
+    alert('This number is equal fifty');
 }
 else{
     alert('invalid input');
