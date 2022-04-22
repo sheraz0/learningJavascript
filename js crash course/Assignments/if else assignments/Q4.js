@@ -9,7 +9,7 @@ let grade;
  grade = prompt('please enter a grade');
 
  if(grade === 'A' || grade === 'a' ){
-     console.log(`Excellent`);
+     console.log('Excellent');
 }
  else if(grade === 'B' || grade === 'b'){
      console.log('Good');

@@ -13,7 +13,7 @@ if(user > 50){
     alert('This number is greater than fifty');
 }
 else if(user < 50){
-    alert('This number is less tan fifty');
+    alert('This number is less than fifty');
 }
 else if(user === 50){
     alert('This number is equal fifty');
