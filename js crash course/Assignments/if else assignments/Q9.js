@@ -13,9 +13,9 @@ let dA;
 let bS;
 let gS;
 
-hR = prompt('Enter a house rent');
-dA = prompt('Enter a Daily Allowance');
-bS = prompt('Enter a Basic Salary');
+hR = Number(prompt('Enter a house rent'));
+dA = Number(prompt('Enter a Daily Allowance'));
+bS = Number(prompt('Enter a Basic Salary'));
 
 if(bS >= 1500){
   gS = (hR / dA) + bS;
