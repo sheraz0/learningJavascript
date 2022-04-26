@@ -1,4 +1,4 @@
-/*
+	/*
  9. A pharmaceutical company pays 10% house rent and 90% daily allowance of basic salary
  to its employees if the basic pay of the employee is less than 1500.
  The company pays 20% house rent and 95% daily allowance of basic salary to 
@@ -6,25 +6,25 @@
  that takes basic salary of an employee and calculate and prints his gross salary?
     
 */
+  
+let houseRent;
+let dailyAllowance;
+let basicSalary;
+let gross_salary =  houseRent + dailyAllowance + basicSalary;
+let result;
 
+houseRent = prompt('Enter a House_Rent');
+dailyAllowance = prompt('Enter a  Daily_Allowance');
+basicSalary = prompt('Enter a  Basic_Salary');
 
-let hR;
-let dA;
-let bS;
-let gS;
-
-hR = Number(prompt('Enter a house rent'));
-dA = Number(prompt('Enter a Daily Allowance'));
-bS = Number(prompt('Enter a Basic Salary'));
-
-if(bS >= 1500){
-  gS = (hR / dA) + bS;
-}else if(bS < 1500){
-  gS = (hR / dA) + bS;
-}else{
-  alert('please enter a valid information');
+if(gross_salary >= 1500){
+  result = (gross_salary / 1500) * 100;
+  alert(`Gross Salary is ${result}`);
 }
-
-if(gS){
-  alert(`Gross Salary is : ${gS}`);
+else if(gross_salary < 1500){
+  result = (gross_salary / 1500) * 100;
+   alert(`Gross Salary is ${result}`);
+}
+else{
+  alert('invalid input');
 }
