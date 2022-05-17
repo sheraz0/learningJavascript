@@ -4,7 +4,7 @@
  */
     let base;
     let hieght;
-    let result;
+    let hypotenuse;
     
     base = prompt("PLEASE ENTER A BASE");
     height = prompt("PLEASE ENTER A HEIGHT");
