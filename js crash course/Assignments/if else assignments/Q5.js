@@ -1,42 +1,40 @@
-	/*
-5. Write a program that finds minimum and maximum of 
-three numbers using multiple-if or nested-if statement?
-*/
-
- let number1;
- let number2;
- let number3;
- let result;
-
- number1 = Number(prompt('Enter number one'));
- number2 = Number(prompt('Enter number two'));
- number3 = Number(prompt('Enter number three'));
-
- if(number1 > number2 && number1 > number3){
-   result = number1;
-   alert(`${number1} is maximum`);
- }
- if(number1 < number2 && number1 < number3){
-   result = number1;
-   alert(`${number1} is minimum`);
- }
+	/*  5. Write a program that finds minimum and maximum of three numbers
+        using multiple-if or nested-if statement?
+    */
   
-   if(number2 > number1 && number2 > number3){
-   result = number2;
-   alert(`${number2} is maximum`);
- }
- if(number2 < number1 && number2 < number3){
-   result = number2;
-   alert(`${number2} is minimum`);
- }
-  
-   if(number3 > number1 && number3 > number2){
-   result = number3;
-   alert(`${number3} is maximum`);
- }
- if(number3 < number1 && number3 < number2){
-   result = number3;
-   alert(`${number345} is minimum`);
- }
-
-
+    let n1;
+    let n2;
+    let n3;
+    let result;
+    
+    n1 = prompt("PLEASE ENTER A FIRST NUMBER");
+    n2 = prompt("PLRASE ENTER A SECOND NUMBER");
+    n3 = prompt("PLEASE ENTER A THIRD NUMBER");
+    
+    if(n1 > n2 && n1 > n3){
+      result = n1;
+      alert(`${n1} IS MAXIMUM`);
+      
+      if(n1 < n2 && n1 < n3){
+        result = n1;
+        alert(`${n1} IS MINIMUM`);
+      }
+    }
+    if(n2 > n1 && n2 > n3){
+      result = n2;
+      alert(`${n2} IS MAXIMUM`);
+      
+      if(n2 < n1 && n2 < n3){
+        result = n2;
+        alert(`${n2} IS MINIMUM`);
+      }
+    }
+    if(n3 > n1 && n3 > n2){
+      result = n3;
+      alert(`${n3} IS MAXIMUM`);
+      
+      if(n3 < n1 && n3 < n2){
+        result = n3;
+        alert(`${n3} IS MINIMUM`);
+      }
+    }

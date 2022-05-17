@@ -1,18 +1,23 @@
-/*
-  8. Write a program that takes the length of two legs of a right triangle 
-  as input and calculates the area and hypotenuse?
-  */
-
-  let a;
-  let b;
-  let result;
-  
-  a = prompt('Enter a Base');
-  b = prompt('Enter a Height');
-  
-  if(a && b > 0){
-   result = (1/2) * a * b;
-   alert(`The area of a right triangle is ${result}`);
-  }else{
-    alert('invalid input');
-  }
+ /*
+    8. Write a program that takes the length of two legs of a right triangle
+     as input and calculates the area and hypotenuse?
+ */
+    let base;
+    let hieght;
+    let result;
+    
+    base = prompt("PLEASE ENTER A BASE");
+    height = prompt("PLEASE ENTER A HEIGHT");
+    
+    if(base > 0){
+      result = (base * base) + (height * height);
+      alert(`RIGHT TRIANGLE FIRST LEG ${result}`);
+    }
+    else if(height > 0){
+      result = (height * height) + (base * base);
+      alert(`RIGHT TRIANGLE SECOND LEG ${result}`);
+    }
+    else{
+      alert("INVALID INPUT");
+    }
+      
