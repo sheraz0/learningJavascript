@@ -6,22 +6,16 @@
 
  
 let year;
-
-year = Number(prompt("PLEASE ENTER A YEAR"));
-
-if(year === 1900){
-   alert("THE DAY WAS MONDAY"); 
-}
-else if(year === 1950){
-    alert("THE DAY WAS FRIDAY");
-}
-else if(year === 2000){
-    alert("THE DAY WAS SUNDAY");
-}
-  else if(year === 2022){
-    alert("THE DAY WAS THURSDAY");
+  
+  year = prompt("PLEASE ENTER A YEAR");
+  
+  if(year >= 1900 && year < 2000){
+    alert(`MONDAY/JANUARY/${year}`);
   }
-else{
+  else if(year >= 2001 && year <= 2022){
+    alert(`FRIDAY/JANUARY/${year}`);
+  }
+  else{
     alert("INVALID INPUT");
-}
+  }
     
