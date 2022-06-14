@@ -5,16 +5,17 @@
  compare? 
 */
 
-let sml;
-let int = prompt("ENTER A VALID INTEGER");
-console.log("FIRST INTEGER IS :" + int);
+ 
+let smallNum = 0;
+let inputUser = Number(prompt("ENTER A VALID INTEGER"));
+smallNum = prompt("Enter next input");
 
-for(let a = 1; a <= int; a++){
-let nextNum = prompt('PLEASE ENTER NEXT NUMBER');
-console.log(nextNum);
-if(nextNum === nextNum){
-sml = nextNum;
+for(let a = 1; a < inputUser; a++){
+let nextNum = Number(prompt('PLEASE ENTER NEXT NUMBER'));  
+console.log("NEXT NUMBER IS: " + nextNum);
+ 
+  if(nextNum < smallNum){
+  smallNum =  nextNum;
+ }
 }
-}
-
-console.log(`the smallest integer is ${sml}`);
+ console.log("The smallest integer is: " +  smallNum);
