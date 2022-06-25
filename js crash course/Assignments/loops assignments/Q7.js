@@ -2,19 +2,18 @@
 7. Write an program to calculate : PI = 4-4/3+4/5-4/7+4/9-4/11+4/13 
 */
 
-let PI = 22/7;
-let odd = 1;
-let result;
+   
+let x;
+let sum = 0;
+let PI = 4;
 
-for(let i = 1; i < PI; i++){
+for(let i = 1; i <= 13; i++){
   if(i%2 === 1){
-    result = 4/odd;
+    x = sum + PI/i;
+    sum = x*(-1);
+   }
   }
-  else{
-    result = -4/odd;
-  }
-  odd = odd+2;
-  PI = PI+result;
-}
+  console.log(`calculate PI is: ${sum}`);
 
- console.log(`CALCULATE THE pi ANSWER IS ${PI/odd}`);
+
+ 
